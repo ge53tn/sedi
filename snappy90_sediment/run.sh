@@ -112,4 +112,4 @@ postProcess -func "add(C1, C2, C3, C4)" > log.add 2>&1
 
 postProcess -func sampleDictConcentration > log.sampleConcentration 2>&1
 
-postProcess -func sampleDict_C
+postProcess -func sampleDict_C > log.sampleC 2>&1
